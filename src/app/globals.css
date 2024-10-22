@@ -1,14 +1,60 @@
-html,
-body {
-  --bs-light-rgb: 236, 236, 236;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+#topMenu {
+  background-color: #006400; /* Dark green similar to Murphy's color scheme */
+  padding: 10px 0;
 }
-.wrapper {
-  box-sizing: border-box;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+}
+
+#topMenu .nav-item {
+  margin-left: 15px;
+}
+
+#topMenu .nav-item a i {
+  color: white;
+}
+
+/* New background section */
+.background-section {
+  background-image: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+}
+
+.background-section .container {
+  height: 100%;
+}
+
+.background-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.background-section p {
+  font-size: 1.25rem;
+}
+
+
+/* Footer styling */
+.footer-section {
+  background-color: #004030; /* Green color from the logo */
+  padding: 20px 0;
+}
+
+.footer-section h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  margin: 0;
 }
