@@ -8,9 +8,7 @@ import BottomMenu from '@/components/BottomMenu';
 const Home = () => (
   <main>
     <Container fluid id="footer">
-      <TopMenu />
       <Middle />
-      <BottomMenu />
     </Container>
   </main>
 );
